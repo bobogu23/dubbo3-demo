@@ -1,0 +1,17 @@
+nacos:
+  config:
+    # 指定命名空间
+    namespace: d02d8b1c-4aaa-4374-a544-94d9dd0f55fb
+    #配置服务地址
+    server-addr: 127.0.0.1:8848
+    accessKey:
+    secretKey:
+    #data-ids 为新增加的data-id
+    data-ids: dubbo3-provider
+    #配置类型
+    type: yaml
+    #是否启动刷新配置
+    autoRefresh: true
+    #运行时启用
+    bootstrap:
+      enable: true
